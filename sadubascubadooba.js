@@ -18,7 +18,8 @@ function kadooba(){
 'i can make a good websit',
 'i know magic here is spell<br>siggity soggity turn her in to a froggity',
 'i get baba greels',
-'i can use the potty<br>sometimes'] 
+'i can use the potty<br>sometimes',
+'i watch little einstein',] 
 
 var text = ""
 for(let i=0;i<namboo.length;i++){
@@ -38,3 +39,55 @@ text+="<br>"
 
 
 }
+
+
+
+
+
+
+
+function boobkooba(){
+    
+    
+    var doc = document.getElementById("reasons-to-be-friends-with-me")
+    doc.scrollTop += 1
+
+    //console.log("Cur " + (getDocHeight(doc) - doc.scrollTop) + " Act " + doc.clientHeight)
+    if ( getDocHeight(doc) - doc.scrollTop -5 < doc.clientHeight) {
+        doc.scrollTop = 0
+        setTimeout(boobkooba, 1000)
+
+    }
+    else {
+        setTimeout(boobkooba, 50)
+    
+    }
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+}
+function getDocHeight(doc) {
+    return Math.max(
+        doc.scrollHeight,
+        doc.offsetHeight,
+        doc.clientHeight
+    );
+}
+
+
+
+

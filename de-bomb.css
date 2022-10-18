@@ -1,6 +1,7 @@
 body{
-font-family:"Bungee Spice",sans-serif;
-text-align:center;font-size:120px;background-color:#f54242;
+font-family:"Franklin Gothic Regular",sans-serif;
+text-align:center;font-size:120px;background-color:#000000;
+color:#fff200;
 
 
 
@@ -10,14 +11,51 @@ text-align:center;font-size:120px;background-color:#f54242;
 
 
 
+
+}
+#title{
+    color:#42cef5;
 
 }
 #reasons-to-be-friends-with-me{
 
     font-size:30px;
 
-height:600px;
+height:200px;
 
-/*overflow-y:hidden;*/
+overflow-y:hidden;
+
+scroll-behavior: smooth;
 
 }
+
+
+
+@font-face {
+    font-family: 'Franklin Gothic Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Franklin Gothic Regular'), url('FranklinGothic.woff') format('woff');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
