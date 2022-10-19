@@ -19,7 +19,9 @@ function kadooba(){
 'i know magic here is spell<br>siggity soggity turn her in to a froggity',
 'i get baba greels',
 'i can use the potty<br>sometimes',
-'i watch little einstein',] 
+'i watch little einstein',
+'im big billy the biggest wet willy and im going to poop',
+'<a href="https://www.youtube.com/watch?v=5q0gJs2eYB4">click</a><br>^^<br>^^'] 
 
 var text = ""
 for(let i=0;i<namboo.length;i++){
@@ -69,11 +71,6 @@ function boobkooba(){
 
 
 
-    
-
-
-
-
 
 
 
@@ -91,3 +88,15 @@ function getDocHeight(doc) {
 
 
 
+function PLAYMOOSIC(){
+
+
+
+
+
+    document.getElementById("stoowoos teem").play()
+
+
+
+
+}
